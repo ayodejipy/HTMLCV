@@ -1,0 +1,155 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-size: 1em;
+    line-height: 1.5em;
+    color: #222;
+}
+
+a {
+    text-decoration: none;
+}
+
+.container {
+    width: 1024px;
+    margin: 0 auto;
+    overflow: auto;
+}
+
+.flex-row-container {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.flex-column-container {
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+header {
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    align-items: center;
+    background: #E0E0E0;
+    width: 100%;
+    height: 450px;
+    overflow: hidden;
+}
+
+.col-head {
+    position: relative;
+}
+
+.header__claim__content {
+    position: absolute;
+    margin-top: 0;
+    right: 90px;
+    margin-right: 0;
+    padding-left: 0;
+    top: -30;
+    left: 378px;
+    -webkit-transform: translateX(-20%);
+    transform: translateX(-20%);
+    text-align: center;
+}
+
+.head-top-img--container {
+    position: relative;
+    height: inherit;
+}
+
+.head-top-image {
+    position: absolute;
+    width: 290px;
+    height: inherit;
+    left: 310px;
+    top: -100px;
+    -webkit-transform: translateX(100%);
+    transform: translateX(100%);
+    z-index: 999;
+}
+
+section {
+    padding-top: 170px;
+    padding-bottom: 100px;
+}
+
+.name__title {
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 1.1em;
+    letter-spacing: 0.09em;
+}
+
+.role__text {
+    font-weight: 300;
+    font-size: 14px;
+    text-transform: uppercase;
+    letter-spacing: 0.09em;
+}
+
+.skill__title {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 48px;
+    letter-spacing: 0.09em;
+}
+
+.sub__title {
+    font-style: normal;
+    font-weight: 300;
+    font-size: 12px;
+    text-transform: uppercase;
+    line-height: 36px;
+}
+
+.skill__text {
+    font-style: normal;
+    font-weight: 300;
+    font-size: 14px;
+}
+
+
+.sub__headings {
+    font-style: normal;
+    font-weight: 300;
+    font-size: 14px;
+    text-transform: uppercase;
+    line-height: 36px;
+}
+
+section#details {
+    background: #F0F0F0;
+    padding: 0;
+}
+
+aside.left {
+    float: left;
+    width: 400px;
+    padding: 160px 40px;
+}
+
+aside.right {
+    background: #fff;
+    float: right;
+    width: 700px;
+    padding: 160px 70px;
+}
+
+.clearfix {
+    clear: both;
+}
+
+.experience, .education, .certification {
+    margin: 15px 0;
+}
